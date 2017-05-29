@@ -16,19 +16,46 @@
     <li><a href="html/pagina2.html">Educaci&oacute;n</a></li>
     <li><a href="html/pagina3.html">Experiencia</a></li>
   </ul>
-  <h2>Educaci&oacute;n</h2>
+
 
   <table border="1"  cellpadding="0" cellspacing="0">
       <thead>
-        <h2>Llegadas</h2>
+        <h2>Educaci&oacute;n</h2>
         <tr>
-          <td><h2>A&ntilde;o</h2><td>
-          <td><h2>Instituci&oacute;n</h2><td>
-          <td><h2>Lugar</h2><td>
-          <td><h2>?culimin&oacute;?</h2><td>
-        
+          <td><h3>A&ntilde;o</h3><td>
+          <td><h3>Instituci&oacute;n</h3><td>
+          <td><h3>Lugar</h3><td>
+          <td><h3>¿culimin&oacute;?</h3><td>
         </tr>
-
       <thead>
+</table>
+     <h2>Agregar Educaci&oacute;n</h2>
+    <p>
+  			<label for="year">A&ntilde;o</label>
+        <select name="year">
+        				<option value="1">2000</option>
+        				<option value="1">2001</option>
+        				<option value="1">2002</option>
+        </select>
+    </p>
+    <p>
+		     <label for="school">institucion</label>
+
+		      <input type="text" name="school" >
+	 </p>
+   <p>
+     <label for="place">Lugar </label>
+		<textarea name="place" id="" cols="30" rows="3"></textarea>
+  </p>
+  <p>
+			<label for="end">¿culimin&oacute;? </label>
+
+			<input type="radio" name="end"> si
+
+			<input type="radio" name="end"> no
+		</p>
+    <p>
+		 <input type="submit" value="submit">
+	  </p>
   </body>
 </html>
