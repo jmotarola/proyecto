@@ -3,38 +3,44 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-    <svg width="500px" height="200px" viewBox="0 0 1100 400">
-          <image width="500px" height="450px" xlink:href="logo.svg"></image>
-    </svg>
-
     <title>Educacion</title>
 
+  </head>
+  <body>
+  <svg width="500px" height="200px" viewBox="0 0 1100 400">
+          <image width="500px" height="450px" xlink:href="logo.svg"></image>
+  </svg>
     <h1>HOJA DE VIDA</h1>
     <h2>Juan Manuel Otarola</h2>
-
   <ul>
+
     <li><a href="index.html">Inicio</a></li>
     <li><a href="educacion.html">Educaci&oacute;n</a></li>
     <li><a href="experiencia.html">Experiencia</a></li>
+
   </ul>
+
   <h2>Datos personales</h2>
-<ul>
-   <li><h3>Nombre:</h3> Juan Manuel </li>
-   <li><h3>Apellidos:</h3>Ot&aacute;rola Mu&ntilde;oz</li>
-   <li><h3>Edad:</h3>42</li>
- </ul>
-  </head>
-  <body>
+
+ <ul>
+
+    <li><h3>Nombre:</h3> Juan Manuel </li>
+    <li><h3>Apellidos:</h3>Ot&aacute;rola Mu&ntilde;oz</li>
+    <li><h3>Edad:</h3>42</li>
+
+  </ul>
   <table border="1"  cellpadding="0" cellspacing="0">
+
+      <h2>Educaci&oacute;n</h2>
       <thead>
-        <h2>Educaci&oacute;n</h2>
+
         <tr>
           <th>A&ntilde;o</th>
           <th>Instituci&oacute;n</th>
           <th>Lugar</td>
           <th>¿culimin&oacute;?</th>
         </tr>
+
       <thead>
         <tbody>
           <tr>
@@ -51,38 +57,36 @@
           </tr>
         </tbody>
 
-</table>
-     <h2>Agregar Educaci&oacute;n</h2>
+   </table>
+  <h2>Agregar Educaci&oacute;n</h2>
+
+         <p>
+          			<label for="year">A&ntilde;o</label>
+                <select name="year">
+                				<option value="1">2000</option>
+                				<option value="1">2001</option>
+                				<option value="1">2002</option>
+                </select>
+          </p>
     <form action="">
- <p>
-  			<label for="year">A&ntilde;o</label>
-        <select name="year">
-        				<option value="1">2000</option>
-        				<option value="1">2001</option>
-        				<option value="1">2002</option>
-        </select>
-  </p>
-  <p>
-		     <label for="school">instituci&oacute;n</label>
+          <p title="Formulario de estudios">
+          		     <label for="school">instituci&oacute;n</label>
+          		     <input type="text" name="school" required>
+                </br></br>
 
-		      <input type="text" name="school" required>
-	</p>
-  <p>
-     <label for="place">Lugar </label>
-		<textarea name="place" id="" cols="30" rows="3" required></textarea>
-  </p>
-  <p>
-			<label for="end">¿culimin&oacute;? </label>
+                   <label for="place">Lugar </label>
+              		 <textarea name="place" id="" cols="30" rows="3" required></textarea>
 
-			<input type="radio" name="end"> si
+                </br></br>
+              			<label for="end">¿culimin&oacute;? </label>
+              			<input type="radio" name="end"> si
+              			<input type="radio" name="end"> no
 
-			<input type="radio" name="end"> no
-	</p>
-  <p>
-		 <input type="submit" value="submit">
-	</p>
+               </br></br>
+
+              		 <input type="submit" value="submit">
+        	</p>
   </form>
-  </body>
   <footer>
           <em>@Derechos Reservados</em>
     <ul>
@@ -91,6 +95,9 @@
        <li>Tel&eacute;fono:88858321</li>
        <li>Direccion:Urbanizaci&oacute;n Diana #15. San Jos&eacute;, San Jos&eacute;, Costa Rica
        </li>
+
     </ul>
-</footer>
+ </footer>
+  </body>
+
 </html>
