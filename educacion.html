@@ -15,8 +15,8 @@
 
   <ul>
     <li><a href="index.html">Inicio</a></li>
-    <li><a href="pagina2.html">Educaci&oacute;n</a></li>
-    <li><a href="pagina3.html">Experiencia</a></li>
+    <li><a href="educacion.html">Educaci&oacute;n</a></li>
+    <li><a href="experiencia.html">Experiencia</a></li>
   </ul>
   <h2>Datos personales</h2>
 <ul>
@@ -30,12 +30,27 @@
       <thead>
         <h2>Educaci&oacute;n</h2>
         <tr>
-          <td><h3>A&ntilde;o</h3><td>
-          <td><h3>Instituci&oacute;n</h3><td>
-          <td><h3>Lugar</h3><td>
-          <td><h3>¿culimin&oacute;?</h3><td>
+          <th>A&ntilde;o</th>
+          <th>Instituci&oacute;n</th>
+          <th>Lugar</td>
+          <th>¿culimin&oacute;?</th>
         </tr>
       <thead>
+        <tbody>
+          <tr>
+            <td>2010</td>
+            <td>Uned </td>
+            <td>San jose </td>
+            <td> si </td>
+          </tr>
+          <tr>
+            <td>2017</td>
+            <td>nextU </td>
+            <td>San jose </td>
+            <td> no </td>
+          </tr>
+        </tbody>
+
 </table>
      <h2>Agregar Educaci&oacute;n</h2>
     <form action="">
@@ -50,11 +65,11 @@
   <p>
 		     <label for="school">instituci&oacute;n</label>
 
-		      <input type="text" name="school" >
+		      <input type="text" name="school" required>
 	</p>
   <p>
      <label for="place">Lugar </label>
-		<textarea name="place" id="" cols="30" rows="3"></textarea>
+		<textarea name="place" id="" cols="30" rows="3" required></textarea>
   </p>
   <p>
 			<label for="end">¿culimin&oacute;? </label>
